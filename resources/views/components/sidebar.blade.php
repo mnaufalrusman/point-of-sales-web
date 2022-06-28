@@ -13,7 +13,7 @@
     <hr class="sidebar-divider my-0">
 
     <!-- Nav Item - Dashboard -->
-    <li class="nav-item active">
+    <li class="nav-item {{ Request::route()->getName() == 'dashboard' ? ' active' : '' }}">
         <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
@@ -28,25 +28,25 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-cube"></i>
             <span>Kategori</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-cubes"></i>
             <span>Produk</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-id-card"></i>
             <span>Member</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-truck"></i>
             <span>Supplier</span></a>
@@ -61,31 +61,31 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-money-bill"></i>
             <span>Pengeluaran</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-download"></i>
             <span>Pembelian</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-upload"></i>
             <span>Penjualan</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-cart-shopping"></i>
             <span>Transaksi Aktif</span></a>
     </li>
 
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-cart-plus"></i>
             <span>Transaksi Baru</span></a>
@@ -100,7 +100,7 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-file-pdf"></i>
             <span>Laporan</span></a>
@@ -115,14 +115,14 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-users"></i>
             <span>User</span></a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item active">
+    <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fa-solid fa-gears"></i>
             <span>Pengaturan</span></a>
