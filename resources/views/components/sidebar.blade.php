@@ -14,7 +14,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item {{ Request::route()->getName() == 'dashboard' ? ' active' : '' }}">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('dashboard') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -28,8 +28,8 @@
     </div>
 
     <!-- Nav Item - Pages Collapse Menu -->
-    <li class="nav-item">
-        <a class="nav-link" href="index.html">
+    <li class="nav-item {{ Request::is('category*') ? 'active' : '' }}">
+        <a class="nav-link" href="{{ route('category.index') }}">
             <i class="fa-solid fa-cube"></i>
             <span>Kategori</span></a>
     </li>
